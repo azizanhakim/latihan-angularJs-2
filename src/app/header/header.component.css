@@ -1,0 +1,19 @@
+.navbar {
+    background: #444;
+    -o-transition: all .6s;
+    -moz-transition: all .6s;
+    -webkit-transition: all .6s;
+    -ms-transition: all .6s;
+    transition: all .6s;
+    backface-visibility: hidden;
+}
+
+.navbar.navbar-no-bg {
+    background: #444;
+    /* background: rgba* */
+}
+
+.navbar-dark .navbar-nav {
+    font-size: 15px;
+    color: #fff
+}
